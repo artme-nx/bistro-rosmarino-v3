@@ -1,0 +1,68 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify design/tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-ink-950: #211D17;
+  --primitive-color-ink-900: #2B271F;
+  --primitive-color-ink-700: #4A4436;
+  --primitive-color-ink-500: #756D5B;
+  --primitive-color-paper-50: #F7F2E7;
+  --primitive-color-paper-100: #EFE6D2;
+  --primitive-color-paper-300: #DED0AE;
+  --primitive-color-sage-300: #A9BB9C;
+  --primitive-color-sage-500: #5C7A63;
+  --primitive-color-sage-700: #3E5643;
+  --primitive-color-sage-900: #223026;
+  --primitive-font-display: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --primitive-font-sans: var(--font-karla), system-ui, sans-serif;
+  --primitive-motion-duration-micro: 180ms;
+  --primitive-motion-duration-base: 320ms;
+  --primitive-motion-duration-reveal: 1.1s;
+  --primitive-motion-duration-cine: 1.8s;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-cine: cubic-bezier(0.65, 0, 0.35, 1);
+  --primitive-tracking-display: -0.01em;
+  --primitive-tracking-label: 0.26em;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #F7F2E7;
+  --foreground: #211D17;
+  --card: #EFE6D2;
+  --card-foreground: #211D17;
+  --muted: #EFE6D2;
+  --muted-foreground: #756D5B;
+  --accent: #DED0AE;
+  --accent-foreground: #211D17;
+  --border: #DED0AE;
+  --ring: #5C7A63;
+  --radius: 0.85rem;
+  --sage: #5C7A63;
+  --sage-dim: #223026;
+  --surface-line: #DED0AE;
+  --ink-deep: #211D17;
+  --type-display: var(--font-playfair), 'Playfair Display', Georgia, serif;
+  --type-body: var(--font-karla), system-ui, sans-serif;
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-cine: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-micro: 180ms;
+  --duration-base: 320ms;
+  --duration-reveal: 1.1s;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.26em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(2.6rem, 7vw, 5.8rem);
+  --hero-title-leading: 1.04;
+  --hero-glow: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(92, 122, 99, 0.28), rgba(34, 48, 38, 0.12) 45%, transparent 72%);
+  --hero-vignette: linear-gradient(to top, rgba(33, 29, 23, 0.95) 0%, rgba(33, 29, 23, 0.32) 42%, rgba(33, 29, 23, 0.58) 100%);
+  --button-primary-bg: #5C7A63;
+  --button-primary-fg: #F7F2E7;
+  --button-primary-hover-bg: #3E5643;
+  --button-ghost-border: rgba(247, 242, 231, 0.4);
+  --button-ghost-hover-border: #5C7A63;
+}
