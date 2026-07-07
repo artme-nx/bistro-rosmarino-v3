@@ -25,6 +25,7 @@ export function SiteHeader() {
   const muted = scrolled ? "var(--muted-foreground)" : "rgba(247,242,231,0.8)";
 
   return (
+    <>
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled ? "bg-[#F7F2E7]/92 backdrop-blur-md shadow-[0_1px_0_var(--surface-line)] py-3.5" : "py-6"
@@ -64,6 +65,7 @@ export function SiteHeader() {
           {open ? "✕" : "☰"}
         </button>
       </div>
+    </header>
 
       <nav
         className={`md:hidden fixed inset-0 flex flex-col items-center justify-center gap-8 bg-[#F7F2E7] transition-transform duration-500 ${
@@ -90,6 +92,6 @@ export function SiteHeader() {
           Rezerviraj stol
         </a>
       </nav>
-    </header>
+    </>
   );
 }
